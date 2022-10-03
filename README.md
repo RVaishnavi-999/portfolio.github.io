@@ -1,2 +1,2 @@
-# vaishnavi-r-portfolio.github.io
+# rvaishnaviportfolio.github.io
 My Personal Website
