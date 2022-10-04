@@ -133,6 +133,11 @@ h6 {
 @media (max-width: 1199px) {
   #header {
     left: -300px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
   }
 
   #main {
@@ -279,19 +284,33 @@ h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 28px;
+    
   }
 }
 
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
-    line-height: 36px;
+    line-height: 30px;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    
+    
   }
 
   #hero h2 {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 20px;
     margin-bottom: 30px;
+
+    
   }
 }
 
