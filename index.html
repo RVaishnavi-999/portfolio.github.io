@@ -1,956 +1,345 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Vaishnavi_R_Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.9.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-<!-- HTML !-->
-<style>
-
-.button-73 {
-  appearance: none;
-  background-color: #FFFFFF;
-  border-radius: 40em;
-  border-style: none;
-  box-shadow: #ADCFFF 0 -12px 6px inset;
-  box-sizing: border-box;
-  color: #000000;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: -.24px;
-  margin: 0;
-  outline: none;
-  padding: 1rem 1.3rem;
-  quotes: auto;
-  text-align: center;
-  text-decoration: none;
-  transition: all .15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-73:hover {
-  background-color: #FFC229;
-  box-shadow: #FF6314 0 -6px 8px inset;
-  transform: scale(1.125);
-}
-
-.button-73:active {
-  transform: scale(1.025);
-}
-
-@media (min-width: 768px) {
-  .button-73 {
-    font-size: 1.1rem;
-    padding: .50rem 1rem;
-  }
-
-
-  iconify-icon:hover {
-  background-color: blue;
-
-}
-
-.half-black {
-  background: rgba(0, 0, 0, 0.5);
-  padding-bottom: 10px;
-  padding-top: 10px
-}
-
-
-
-* {
-  box-sizing: border-box;
-}
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 30%;
-  padding: 7px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.name {
-  width: 100%;
-  text-align: center;
-  padding-left: 60px;
-
-}
-
-@media only screen and (max-width: 480px) {
-p { text-align: center; }}
-
-
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <title>Vaishnavi R — AI Consultant &amp; Engineer</title> -->
+  <meta name="description" content="AI Consulting, Engineering and Cloud Architecture portfolio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=5" />
 </head>
-
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ═══════════════ TOPBAR ═══════════════ -->
+  <header class="topbar">
+    <a class="header-profile" href="#hero" aria-label="Vaishnavi R home">
+      <span class="header-profile__avatar" aria-hidden="true"><img src="data/profile pic.JPG" alt="Vaishnavi R" /></span>
+      <span class="header-profile__copy">
+        <span class="header-profile__name">VAISHNAVI R</span>
+      </span>
+    </a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span>
+    </button>
+  </header>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/p.jpeg" alt="" class="img-fluid rounded-circle">
-        
-        <!-- side menu -->
-        <h1 class="text-light"><a href="index.html">Vaishnavi R</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://github.com/RVaishnavi-999" class="GitHub">
-            <i class="bx bxl-github"></i></a>
-          <a href="http://www.linkedin.com/in/vaishnavi-r" class="linkedin">
-            <i class="bx bxl-linkedin"></i></a>
-          <a href="https://www.facebook.com/Vaishnavi.R.Kekuda" class="facebook">
-            <i class="bx bxl-facebook"></i></a>
-          <a href="mailto: vaishnavirkekuda@gmail.com" >
-            <iconify-icon icon="bx:envelope"></iconify-icon></a>
-        </div>
-      </div>
-
-
-<!-- side menu-->
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li>
-            <a href="#hero" class="nav-link scrollto active">
-              <i class="bx bx-home"></i> 
-            <span>Home</span></a></li>
-          <li>
-            <a href="#aboutme" class="nav-link scrollto">
-              <i class="bx bx-user"></i> 
-            <span>About Me</span></a></li>
-          <li>
-            <a href="#projectsandexp" class="nav-link scrollto">
-              <i class="bx bx-file-blank"></i> 
-            <span>Projects & Experience</span></a></li>
-          <li>
-            <a href="#education" class="nav-link scrollto">
-              <iconify-icon  icon="bx:building-house"
-              style="font-size: 25px;"></iconify-icon>
-            <span>&nbsp;&nbsp;Education</span></a></li>
-          <li>
-            <a href="#skills" class="nav-link scrollto">
-              <iconify-icon icon="bx:atom"
-              style="font-size: 25px;"></iconify-icon> 
-            <span>&nbsp;&nbsp;Skills and Certifications</span></a></li>
-            <li>
-              <a href="#interests" class="nav-link scrollto">
-                <iconify-icon icon="bx:happy-heart-eyes" 
-                style="font-size: 25px;"></iconify-icon>
-            <span>&nbsp;&nbsp;Interests & Achievements</span></a></li>
-          <li>
-            <a href="#contact" class="nav-link scrollto" style="margin-bottom: 90px";>
-              <iconify-icon icon="bx:phone-incoming"
-              style="font-size: 25px;"></iconify-icon>
-            <span>&nbsp;&nbsp;Hire Me</span></a>
-          </li>
-        </ul>
-      </nav><!-- .nav-menu -->
+  <!-- ═══════════════ MOBILE MENU ═══════════════ -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer__inner">
+      <a href="#hero"      class="mobile-item is-active" data-section="hero">HOME</a>
+      <a href="#expertise" class="mobile-item"           data-section="expertise">EXPERTISE</a>
+      <a href="#cases"     class="mobile-item"           data-section="cases">CASE STUDIES</a>
+      <a href="#awards"    class="mobile-item"           data-section="awards">AWARDS &amp; RECOGNITION</a>
+      <a href="#publications" class="mobile-item"        data-section="publications">PUBLICATIONS</a>
+      <a href="#certifications" class="mobile-item"      data-section="certifications">CERTIFICATIONS</a>
+      <a href="#education" class="mobile-item"           data-section="education">EDUCATION</a>
+      <a href="#projects"  class="mobile-item"           data-section="projects">PROJECTS</a>
+      <a href="#interests" class="mobile-item"           data-section="interests">INTERESTS &amp; VOLUNTEER</a>
+      <a href="#contact"   class="mobile-item"           data-section="contact">CONTACT</a>
     </div>
-  </header><!-- End Header -->
+  </div>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center, name" style="padding-right: 10px;">
-    <div class="hero-container, name", data-aos="fade-in">
+  <main>
 
-      <h1 class="name" 
-      style="color: white; font-size:40px; text-align: center; padding-top: 80px;
-      ">Vaishnavi R</h1>
-      
-      <p  class="name" 
-      style="margin-right: 10px; text-align: center; padding-top: 8px;"> 
-      &nbsp; I have interest in&nbsp;<span class="typed" data-typed-items="Data Analysis, Business Analytics, Data Science "></span>
-    </p>
-      
-      
-
-      <p class="name"
-      style="text-align: center;">&nbsp;Love to learn and <br>&nbsp; explore new things every day !
-      
-      <br>
-      Check out my projects 
-      <a style="text-decoration-line: underline; color: yellow" 
-      href="#projectsandexp">Here!</a>.
-      <br>
-      <br>
-
-<!-- resume pdf give link here -->
-      <a href="assets/img/Vaishnavi_R_resume.pdf" class="name" download 
-      >&nbsp;&nbsp;
-        <button  class="button-73" role="button" 
-        style="position: relative; left: -3%">Download My Resume</button></a>
-
-  </p>
-      
-
-    </div>
-  </section>
-
-  <!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= Aboutme Section ======= -->
-    <section id="aboutme" class="about" style="padding-right: 10px;">
-      <div class="container" style="margin-right: 10px; margin-left: 10px;">
-
-        <div class="section-title" style="color: black";>
-          <h2>About Me</h2>
-        
-          <p>Hi! My name is <b>Vaishnavi R. </b>
-            <br>
-            I'm a postgraduate of 2022 from The National Degree College, Bangalore Central University with a Master's degree in Computer Science. 
-            <br>
-          I have experience in <b>SQL | Python | Excel | Tableau for Data & Business analysis. | Web development | Software Development.</b>
-            
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpeg" 
-            style="max-height: 80%" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> 
-                    <span>26 July 1999</span></li>
-                  <li>
-                    <i class="bi bi-chevron-right"></i> 
-                    <strong>Website:</strong> 
-                    <a href="https://rvaishnavi-999.github.io/portfolio.github.io/">My Website</a>
-                    
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bangalore, India</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>M.S- Computer Science</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span style="font-size: 15px">vaishnavirkekuda@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
-              </div>
+    <!-- ═══ 1. HERO ═══ -->
+    <section id="hero" class="section section--split section--hero">
+      <div class="content-col fade-up">
+        <h1 class="heading">
+          <span class="heading__light">Building AI Systems</span>
+          <span class="heading__bold">That Create<br>Business Impact.</span>
+        </h1>
+        <p class="tagline">WHERE STRATEGY MEETS ENGINEERING.</p>
+        <p class="body-copy hero-body1"></p>
+        <p class="body-copy hero-body2"></p>
+        <div class="hero-marquee" aria-label="Areas of expertise">
+          <div class="hero-marquee__track">
+            <div class="hero-marquee__group" aria-hidden="false">
+              <span class="hero-marquee__item">AI CONSULTANT</span>
+              <span class="hero-marquee__item">AI ENGINEER</span>
+              <span class="hero-marquee__item">DATA SCIENTIST</span>
+              <span class="hero-marquee__item">CLOUD ARCHITECTURE</span>
+              <span class="hero-marquee__item">SYSTEM DESIGN</span>
+              <span class="hero-marquee__item">AI ADOPTION</span>
+              <span class="hero-marquee__item">AI PRODUCT ROADMAP</span>
             </div>
-            <br>
-            <p>
-              Data science and Analysis enthusiast, Good at problem solving, Good at communicating with people.
-            </p>
+            <div class="hero-marquee__group" aria-hidden="true">
+              <span class="hero-marquee__item">AI CONSULTANT</span>
+              <span class="hero-marquee__item">AI ENGINEER</span>
+              <span class="hero-marquee__item">DATA SCIENTIST</span>
+              <span class="hero-marquee__item">CLOUD ARCHITECTURE</span>
+              <span class="hero-marquee__item">SYSTEM DESIGN</span>
+              <span class="hero-marquee__item">AI ADOPTION</span>
+              <span class="hero-marquee__item">AI PRODUCT ROADMAP</span>
+            </div>
           </div>
         </div>
-
-      </div>
-    </section><!-- End Aboutme Section -->
-
-
-<!---->
-
-    <!-- ======= project and exp s Section ======= -->
-    <section id="projectsandexp" class="portfolio section-bg"
-     style="padding-right: 10px;">
-      <div class="container">
-        <div class="section-title">
-          <h2>Projects & Work Experience</h2>
-          <p style="font-size: 18px"><b>Analyst Portfolio Projects : </b></p>
-
-          
-         <div data-aos="fade-up">
-              <ul>- Data Exploration and analysis in Covid-19 Dataset  : 
-              <!-- button  -->
-                <a href="https://github.com/RVaishnavi-999/Data-analyst-Portfolio-Project"
-                  target="_blank" class="name" download 
-                >&nbsp;
-                  <button  class="button-73" role="button" 
-                    style="position: relative; left: -3%; width: 250px">Click here
-                  </button>
-                </a>
-            </ul>
-
-            <ul>- Bike Sales analysis with Excel  : 
-              <!-- button  -->
-                <a href="https://github.com/RVaishnavi-999/Excel-portfolio-Projects/blob/main/README.md"
-                  target="_blank" class="name" download 
-                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <button  class="button-73" role="button" 
-                    style="position: relative; left: -3%; width: 250px">Click here
-                  </button>
-                </a>
-            </ul>
-
-            <ul>- Airbnb data analysis Dashboard  :
-              <!-- button  -->
-                <a href="https://public.tableau.com/views/AirbnbFullProject_16705808250890/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
-                  target="_blank" class="name" download 
-                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <button  class="button-73" role="button" 
-                    style="position: relative; left: -3%; width: 250px; margin-top-top: 20px">Click here
-                  </button>
-                </a>
-            </ul>
-
-            <ul>- Customer sales data analysis Dashboard  :
-              <!-- button  -->
-                <a href="https://public.tableau.com/views/SalesAnalysis_16706945255760/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
-                  target="_blank" class="name" download 
-                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <button  class="button-73" role="button" 
-                    style="position: relative; left: -3%; width: 250px; margin-top-top: 20px">Click here
-                  </button>
-                </a>
-            </ul>
-  
-          </div>
+        <div class="hero-ctas">
+          <a href="data/Blue and White Modern Artificial Intelligence Presentation.pdf" class="btn-resume" target="_blank" rel="noreferrer">
+            <span>View Resume</span>
+            <span class="btn-resume__icon" aria-hidden="true">&#8599;</span>
+          </a>
+          <a href="#contact" class="btn-outline">Let's Connect</a>
         </div>
       </div>
 
-<div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All Projects</li>
-              <li data-filter=".filter-analyst">Internship</li>
-              <li data-filter=".filter-web">Web Development</li>
-              <li data-filter=".filter-app">Android App</li>
-              
-            </ul>
+      <div class="visual-col fade-up delay-1">
+        <div class="v-card">
+          <div class="v-card__deco" aria-hidden="true"></div>
+          <div class="v-card__inner v-card__inner--video">
+            <div class="hero-video-shell">
+              <video
+                class="hero-video"
+                src="data/Video/bot.mp4"
+                autoplay
+                muted
+                loop
+                playsinline
+              ></video>
+              <div class="hero-video-overlay" aria-hidden="true"></div>
+            </div>
           </div>
         </div>
-       
-       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-<!-- Internship -->
-          <div class="col-lg-6 col-md-6 portfolio-item filter-analyst">
-            <div class="portfolio-wrap, portfolio-links">
-             <a href="project_internship.html">
-                <img style="width: 400px; height: 350px;" src="assets/img/portfolio/portfolio-4.png" class="img-fluid" alt="" >
-              <button style="text-align: center;"><i class="bx bx-link">More Details</i></button>
-             </a>
-
-             <a href="assets/img/portfolio/portfolio-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Data Science and Business Analytics Internship">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-
-            </div>
-          </div>
-
-<!-- Grow Wealth -->
-          <div class="col-lg-6 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap, portfolio-links">
-             <a href="project_gw.html">
-                <img style="width: 400px; height: 350px;" src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" >
-              <button style="text-align: center;"><i class="bx bx-link">More Details</i></button>
-             </a>
-
-             <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Grow Wealth Virtual stock Trading Platform">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-
-            </div>
-          </div>
-
-          <!-- Android App -->
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap, portfolio-links">
-
-              <a href="project_wecare_det.html">
-                <img style="width: 400px; height: 350px;" src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" >
-              <button style="text-align: center;"><i class="bx bx-link">More Details</i></button>
-             </a>
-
-             <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Android App with IoT">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-
-            </div>
-          </div>
-
-<!-- Java -->
-          <div class="col-lg-6 col-md-6 portfolio-item">
-            <div class="portfolio-wrap, portfolio-links">
-             <a href="project_yvyc.html">
-                <img style="width: 400px; height: 350px;" src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="" >
-              <button style="text-align: center;"><i class="bx bx-link">More Details</i></button>
-             </a>
-
-             <a href="assets/img/portfolio/portfolio-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Your Voice - Your Choice : Java Project">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-
-            </div>
-           </div>
-        </div>
-
-        <p style="font-size: 18px;"><b>All projects can be found</b>
-          <a style="text-decoration: underline" href="https://github.com/RVaishnavi-999">
-           <b>here</b></a> :)</p>
-
-      </div>
-    </section><!-- End project and exp Section -->
-
-
-
-
-
-    <!-- ======= facts Section ======= -->
-    <!--
-    <section id="facts" class="projectsandexp">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Facts</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-            </div>
-          </div>
-
-        </div>
-
       </div>
     </section>
 
-     End facts Section -->
-
-
-    <!-- ======= Education Section ======= -->
-    <section id="education" class="services" style="padding-right: 10px;">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Education</h2>
+    <!-- ═══════════════ CONTENT FLOW ═══════════════ -->
+    <div class="section-flow">
+      <!-- Desktop section navigation -->
+      <aside class="section-sidebar" id="section-sidebar" aria-label="Section navigation">
+        <div class="section-sidebar__progress" aria-hidden="true">
+          <span class="section-sidebar__progress-track"></span>
+          <span class="section-sidebar__progress-fill" id="section-progress-fill"></span>
         </div>
+        <nav class="section-sidebar__nav">
+          <a href="#hero" class="section-sidebar__link" data-section="hero">Home</a>
+          <a href="#expertise" class="section-sidebar__link" data-section="expertise">Expertise</a>
+          <a href="#cases" class="section-sidebar__link" data-section="cases">Case Studies</a>
+          <a href="#awards"    class="section-sidebar__link" data-section="awards">Awards</a>
+          <a href="#publications" class="section-sidebar__link" data-section="publications">Publications</a>
+          <a href="#certifications" class="section-sidebar__link" data-section="certifications">Certifications</a>
+          <a href="#education" class="section-sidebar__link" data-section="education">Education</a>
+          <a href="#projects" class="section-sidebar__link" data-section="projects">Projects</a>
+          <a href="#interests" class="section-sidebar__link" data-section="interests">Interests</a>
+          <a href="#contact" class="section-sidebar__link" data-section="contact">Contact</a>
+        </nav>
+      </aside>
 
-        <div class="row">
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-laptop"></i></div>
-            <h4 class="title">Master of Science</h4>
-            <p class="description">
-              * Computer Science. 
-              <br>* The National Degree College, Bangalore.
-              <br>* December 2020 - October 2022.
-              <br>* Courses:  Data Science, Machine Learning, Big Data Analytics, Android, Object Oriented Analysis and Design, etc.
-              <br>* Aggregate Percentage: 98.25%.    
-              <br>* CGPA: 10
-            </p>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-building"></i></div>
-            <h4 class="title">Bachelor of Science – [PMCs]</h4>
-            <p class="description">
-* Physics, Mathematics, and Computer Science
-<br>* Government First Grade College, Kuvempu University, India
-<br>* September 2020
-<br>* Courses: Java, DBMS, Software Engineering, Data Structure and Algorithms, Unix, C, C++, etc.
-<br>* Percentage: 95%                  
+      <!-- Main content sections -->
+      <div class="section-flow__content">
 
-            </p>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-journal-bookmark"></i></i></div>
-            <h4 class="title">PUC (12th) </h4>
-            <p class="description">
-            * Government Pre-University College, Karnataka Board, India
-            <br>* March 2017
-            <br>* Percentage:  85%. 
-          </p>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-clipboard-data"></i></i></div>
-            <h4 class="title">SSLC(10th) </h4>
-            <p class="description">
-              * Dr. U.R.Ananthamurthy Govt High School, India 
-              <br>* April 2015
-              <br>* Percentage:  92.64%.               
-            </p> 
-          </div>
-          
-          
+    <!-- ═══ 2. EXPERTISE ═══ -->
+    <section id="expertise" class="section section--full">
+      <div class="section-header fade-up">
+        <p class="eyebrow">AREAS OF EXPERTISE</p>
+        <h2 class="heading">
+          <span class="heading__bold">From strategy to Production AI Systems</span>
+        </h2>
+        <div class="expertise-copy-box">
+          <p class="body-copy expertise-body expertise-body--secondary"></p>
         </div>
-
       </div>
-    </section><!-- End Education Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg" 
-    style="padding-right: 10px;" >
-      <div class="container">
-        <div class="section-title">
-          <h2>Skills and Certifications</h2>
+      <div class="expertise-grid">
+        <div class="e-card fade-up">
+          <div class="e-card__num">01</div>
+          <h3>AI Consulting</h3>
+          <p>Help organizations identify where AI creates leverage and how to operationalize it responsibly.</p>
+          <ul><li>AI strategy &amp; readiness</li><li>Executive advisory</li><li>Adoption roadmaps</li></ul>
         </div>
-       
-            <div class="portfolio-info">
-
-              <ul>
-                <li><strong>Programming</strong>: Python (NumPy, Pandas, Matplotlib), Java, SQL, HTML, CSS</li>
-                <br>
-                <li><strong>Database</strong>: SQL\MySQL, FireBase database – NoSQL, WAMP Server.</li>
-                <br>
-                <li><strong>Tools</strong>: MS Excel, Tableau, Python Notebook, Google COLAB, GitHub, MS-Office </li>
-                <br>
-                <li><strong>Languages known </strong>: English(Proficient), Kannada(Proficient), Hindi(Bilingual).</li>
-
-
-
-              </ul>
-            </div>
-
-            <div>
-              <br>
-              <br>
-            </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img style="width: 350px; height: 250px; box-shadow: 0px 0 30px rgba(5, 13, 24, 1);" src="assets/img/portfolio/c1.png" class="img-fluid" alt="">
-
-              <div class="portfolio-links" style="width: 288px;">
-                
-
-
-              <a href="assets/img/portfolio/c1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Google Data Analytics Certificate">
-             <button><i class="bx bx-plus"></i>View</button>
-                </a>
-                <a href="https://www.credly.com/badges/2a45bd5f-f2f6-4ca0-8c97-24e2f29a8129/linked_in_profile" title="More Details" title="More Details">
-             <button><i class="bx bx-link"></i>More Details</button>
-                </a>
-
-              
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img style="width: 400px; height: 250px;box-shadow: 0px 0 30px rgba(5, 13, 24, 1);" src="assets/img/portfolio/c2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links" style="width: 288px;">
-                
-<a href="assets/img/portfolio/c2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Python Programming">
-             <button><i class="bx bx-plus"></i>View</button>
-                </a>
-                <a href="https://www.coursera.org/account/accomplishments/certificate/5GZBFL7AWRZU" title="More Details">
-             <button><i class="bx bx-link"></i>More Details</button>
-                </a>
-
-               
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 portfolio-item">
-            <div class="portfolio-wrap">
-              <img style="width: 400px; height: 250px; box-shadow: 0px 0 30px rgba(5, 13, 24, 1);" src="assets/img/portfolio/java.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links" style="width: 288px;">
-
-                <a href="assets/img/portfolio/java.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Object Oriented Programming in Java">
-             <button><i class="bx bx-plus"></i>View</button>
-                </a>
-                <a href="https://www.coursera.org/account/accomplishments/certificate/J7DWN5TVUBFB" title="More Details">
-             <button><i class="bx bx-link"></i>More Details</button>
-                </a>
-                
-
-
-                
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <br>
-          <br>
-          </div>
-
-          
-
-          <div class="col-lg-4 col-md-4 portfolio-item">
-            <div class="portfolio-wrap">
-              <img style="width: 400px; height: 250px; box-shadow: 0px 0 30px rgba(5, 13, 24, 1);" src="assets/img/portfolio/dbms.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links" style="width: 288px;">
-
-                <a href="assets/img/portfolio/dbms.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Database Management Essentials">
-             <button><i class="bx bx-plus"></i>View</button>
-                </a>
-                <a href="https://www.coursera.org/account/accomplishments/certificate/WPAZ4KL8WQ72" title="More Details">
-             <button><i class="bx bx-link"></i>More Details</button>
-                </a>
-                
-
-
-
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 portfolio-item">
-            <div class="portfolio-wrap">
-              <img style="width: 400px; height: 250px; box-shadow: 0px 0 30px rgba(5, 13, 24, 1);" src="assets/img/portfolio/a.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links" style="width: 288px;">
-
-                <a href="assets/img/portfolio/a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Merit Scholarship">
-             <button><i class="bx bx-plus"></i>View</button>
-                </a>
-                <a href="https://www.linkedin.com/posts/vaishnavi-r_thankful-msc-meritscholarship-activity-6959146829779275776-Culz?utm_source=share&utm_medium=member_desktop" title="More Details">
-             <button><i class="bx bx-link"></i>More Details</button>
-                </a>
-                
-              </div>
-            </div>
-          </div>
-          
+        <div class="e-card fade-up delay-1">
+          <div class="e-card__num">02</div>
+          <h3>Solution Design &amp; Dev</h3>
+          <p>Design and build intelligent systems that are production-minded from day one.</p>
+          <ul><li>LLM applications &amp; RAG</li><li>Multi-agent workflows</li><li>MCP &amp; vector databases</li></ul>
         </div>
-
-
-
-
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= interest and acievements Section ======= -->
-    <section id="interests" class="resume" style="padding-right: 10px;">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Interests & Achievements :)</h2>
-        </div>
-
-        <div class="row">
-          <div data-aos="fade-up">
-            <h3 class="resume-title">Interests</h3>
-            <div class="resume-item pb-0">
-              <ul>
-                <li>I am a Singer</li>
-                <li>Bharathanatyam Classical Dancer</li>
-                <li>I like to do paintings / drawings in my free time</li>
-                <li>Like to capture beautiful memories (Photography)</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Awards :)</h3>
-            <div class="resume-item">
-            
-              
-              <p>Awarded a merit scholarship for “Excellent Academic Performance” in the MSc-Computer science by National degree college - July 2022
-                <a href="https://www.linkedin.com/posts/vaishnavi-r_thankful-msc-meritscholarship-activity-6959146829779275776-Culz?utm_source=share&utm_medium=member_desktop"> -- See Here</a>
-              </p>
-              
-            </div>
-            <div class="resume-item">
-              <p>Honoured by the Kuvempu University, for getting the highest score in Physics subject in BSc PMCs– June 2022
-                <a href="https://www.linkedin.com/posts/vaishnavi-r_universitylife-happiness-studentsuccess-activity-6943541612878659584-Ta7J?utm_source=share&utm_medium=member_desktop">-- See Here</a></p>
-            </div>
-
-            <div class="resume-item">
-              <p>Awarded as <b>“Eccentric Talent” </b>(“Asaadharana Prathibhe”) by “The Women and Child Welfare Department” of Karnataka State, India, for achieving greatness in academic success as well as success in extracurricular activities such as singing, dancing, and painting.</p>
-            </div>
-
-            <div class="resume-item">
-              <p>As a team head, won <b>1st prize in NATIONAL ROLE PLAY </b>conducted by NCERT in Bangalore and represented SOUTH INDIA in DELHI NCERT CAMPUS in 2014.</p>
-            </div>
-
-            <h3 class="resume-title">Clicks By Me :)</h3>
-        <div class="row">
-              <div class="col-sm-4" style="
-              margin-top: 5px; margin-bottom: 5px;">
-              <img src="assets/img/clicks/1.jpg" class="img-fluid" >
-
-              <a href="assets/img/clicks/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bridge-black-white">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-
-              </div>
-              <div class="col-sm-4" style="
-              margin-top: 5px; margin-bottom: 5px;">
-                <img src="assets/img/clicks/4.png" class="img-fluid" >
-                <a href="assets/img/clicks/4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Hills">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-            </div>
-            <div class="col-sm-4" style="
-              margin-top: 5px; margin-bottom: 5px;">
-               <img src="assets/img/clicks/2.png" class="img-fluid" >
-               <a href="assets/img/clicks/2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bats :)">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-
-            </div>
-        </div>
-<div><br><br></div>
-<div class="row">
-  <div class="col-sm-4" style="
-              margin-top: 5px; margin-bottom: 5px;">
-              <img src="assets/img/clicks/10.png" class="img-fluid" >
-              <a href="assets/img/clicks/10.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Fantasy :)">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-              </div>
-              <div class="col-sm-4" style="
-              margin-top: 5px; margin-bottom: 5px;">
-                <img src="assets/img/clicks/9.png" class="img-fluid" >
-                 <a href="assets/img/clicks/9.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bird :)">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-            </div>
-            <div class="col-sm-4" style="
-              margin-top: 5px; margin-bottom: 5px;">
-               <img src="assets/img/clicks/8.png" class="img-fluid" >
-               <a href="assets/img/clicks/8.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mama Bird with babies :)">
-             <button><i class="bx bx-plus"></i>View </button>
-                </a>
-            </div>
-      </div>
-
-
-
-
-
+        <div class="e-card fade-up delay-2">
+          <div class="e-card__num">03</div>
+          <h3>Cloud &amp; Tech Stack</h3>
+          <p>Modern cloud delivery with strong focus on reliability, security, and velocity.</p>
+          <div class="tech-pill-row">
+            <span>Azure</span><span>AWS</span><span>Docker</span><span>K8s</span>
+            <span>Python</span><span>FastAPI</span><span>LangChain</span><span>OpenAI</span>
+            <span>PostgreSQL</span><span>Redis</span><span>GitHub Actions</span>
           </div>
-          
         </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-    
-
-    <!-- ======= Testimonials Section ======= 
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <div class="e-card fade-up delay-3">
+          <div class="e-card__num">04</div>
+          <h3>Technical Delivery</h3>
+          <p>Translate strategy into delivery plans and measurable outcomes.</p>
+          <ul><li>Enterprise integration</li><li>Performance &amp; cost optimization</li><li>Client-facing tech leadership</li></ul>
         </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div>
-
-            End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div>
-
-             End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div>
-
-            End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div>
-
-            End testimonial item 
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div>
-
-            End testimonial item 
-          
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
       </div>
     </section>
 
-    End Testimonials Section -->
+    <!-- ═══ 4. CASE STUDIES ═══ -->
+    <section id="cases" class="section section--full">
+      <div class="section-header fade-up">
+        <p class="eyebrow">CASE STUDIES</p>
+        <p class="body-copy cases-body"></p>
+      </div>
+      <div class="cases-grid"></div>
+    </section>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact" style=" padding-right: 10px;">
-      <div class="container">
+    <!-- ═══ AWARDS & RECOGNITION ═══ -->
+    <section id="awards" class="section section--full">
+      <div class="section-header fade-up">
+        <p class="eyebrow">AWARDS &amp; RECOGNITION</p>
+        <h2 class="heading">
+          <span class="heading__bold"></span>
+        </h2>
+      </div>
+      <div class="awards-timeline fade-up delay-1"></div>
+    </section>
 
-        <div class="section-title">
-          <h2>Contact Me </h2>
-          <p>I'm currently looking for opportunities in :- Product Management / Data Analysis / Software development! If you know of any positions available, if you have any questions, or if you just want to say HI :) , please feel free to email me at, 
-            <a href="mailto: vaishnavirkekuda@gmail.com">vaishnavirkekuda@gmail.com
-           </a>
-            </p>
+    <section id="publications" class="section section--full">
+      <div class="section-header fade-up">
+        <p class="eyebrow">PUBLICATIONS</p>
+        <h2 class="heading">
+          <span class="heading__light">Ideas, frameworks and</span>
+          <span class="heading__bold">Lessons from<br>real delivery.</span>
+        </h2>
+        <p class="tagline">WRITING THAT SHAPES HOW TEAMS THINK ABOUT AI.</p>
+        <p class="body-copy publications-body"></p>
+      </div>
+      <div class="pub-carousel">
+        <div class="pub-carousel__viewport">
+          <div class="publications-grid pub-carousel__track"></div>
         </div>
-
-        
-
+        <div class="pub-carousel__nav">
+          <button class="pub-carousel__btn pub-carousel__btn--prev" aria-label="Previous publications">&#8592;</button>
+          <div class="pub-carousel__dots"></div>
+          <button class="pub-carousel__btn pub-carousel__btn--next" aria-label="Next publications">&#8594;</button>
+        </div>
       </div>
-    </section><!-- End Contact Section -->
+    </section>
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= 
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>VRK</span></strong>
+    <section id="certifications" class="section section--full section--about-stack">
+      <div class="about-stack__intro fade-up">
+        <p class="eyebrow about-certifications__eyebrow">CERTIFICATIONS</p>
       </div>
-      <div class="credits">
-         All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: 
-          https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        
-        <!--
+
+      <div class="about-certifications fade-up delay-1">
+        <div class="certifications-scroller">
+          <div class="certifications-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section--full section--about-stack">
+      <div class="about-stack__intro fade-up">
+        <p class="eyebrow">EDUCATIONAL BACKGROUND</p>
+      </div>
+
+      <div class="about-education-panel fade-up delay-1">
+        <div class="about-education-panel__shell">
+          <div class="edu-list about-education-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 5. PROJECTS ═══ -->
+    <section id="projects" class="section section--full">
+      <div class="section-header fade-up">
+        <p class="eyebrow">PROJECTS</p>
+        <h2 class="heading">
+          <span class="heading__light">Public work and</span>
+          <span class="heading__bold">technical experiments.</span>
+        </h2>
+        <p class="tagline">OPEN SOURCE. REAL CODE. WORTH EXPLORING.</p>
+      </div>
+      <div class="projects-grid">
+        <div class="p-card fade-up">
+          <div class="p-card__top">
+            <div class="p-card__dot"></div>
+            <a href="https://github.com" target="_blank" rel="noreferrer" class="p-card__link">GitHub &#8250;</a>
+          </div>
+          <h3>Featured Repository One</h3>
+          <p>Add your strongest public repository here with a short, impact-oriented summary.</p>
+        </div>
+        <div class="p-card fade-up delay-1">
+          <div class="p-card__top">
+            <div class="p-card__dot"></div>
+            <a href="https://github.com" target="_blank" rel="noreferrer" class="p-card__link">GitHub &#8250;</a>
+          </div>
+          <h3>Featured Repository Two</h3>
+          <p>A platform build, framework, or infrastructure-heavy project worth highlighting.</p>
+        </div>
+        <div class="p-card fade-up delay-2">
+          <div class="p-card__top">
+            <div class="p-card__dot"></div>
+            <a href="https://github.com" target="_blank" rel="noreferrer" class="p-card__link">GitHub &#8250;</a>
+          </div>
+          <h3>Featured Repository Three</h3>
+          <p>A project demonstrating experimentation, research, or strong product thinking.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ 8. CONTACT ═══ -->
+    <!-- ═══ INTERESTS & VOLUNTEER WORK ═══ -->
+    <section id="interests" class="section section--full">
+      <div class="section-header fade-up">
+        <p class="eyebrow">INTERESTS &amp; VOLUNTEER WORK</p>
+        <h2 class="heading"><span class="heading__bold"></span></h2>
+      </div>
+      <div class="interests-timeline"></div>
+    </section>
+
+    <section id="contact" class="section section--contact">
+      <div class="contact-box fade-up">
+        <p class="eyebrow">LET'S TALK</p>
+        <h2 class="heading heading--center">
+          <span class="heading__light">Planning an AI product,</span>
+          <span class="heading__bold">Platform or<br>Transformation?</span>
+        </h2>
+        <p class="tagline">LET'S BUILD SOMETHING THAT ACTUALLY SHIPS.</p>
+        <p class="body-copy contact-body">
+          If you want strategy with technical credibility and delivery focus,
+          this is the right conversation to start.
+        </p>
+        <div class="contact-ctas">
+          <div class="contact-ctas__email-row">
+            <a href="mailto:hello@example.com" class="btn-filled btn-filled--email">
+              <span class="btn-filled__label">Send an Email</span>
+              <span class="btn-filled__email"></span>
+            </a>
+          </div>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" class="btn-outline">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
       </div>
     </div>
-  </footer> 
 
- End  Footer -->
+  </main>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div class="case-modal" id="case-modal" aria-hidden="true">
+    <div class="case-modal__backdrop" data-case-modal-close></div>
+    <div class="case-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="case-modal-title">
+      <button type="button" class="case-modal__close" data-case-modal-close aria-label="Close case study popup">&times;</button>
+      <div class="case-modal__header">
+        <span class="case-modal__tag" id="case-modal-tag"></span>
+        <h3 id="case-modal-title"></h3>
+      </div>
+      <div class="case-modal__grid">
+        <section class="case-modal__block case-modal__block--problem">
+          <p class="case-modal__label">Problem</p>
+          <p id="case-modal-problem"></p>
+        </section>
+        <section class="case-modal__block case-modal__block--solution">
+          <p class="case-modal__label">Solution</p>
+          <p id="case-modal-solution"></p>
+        </section>
+        <section class="case-modal__block case-modal__block--full">
+          <p class="case-modal__label">Impact</p>
+          <div id="case-modal-impact"></div>
+        </section>
+      </div>
+    </div>
+  </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <script src="script.js"></script>
 </body>
-
 </html>

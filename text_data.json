@@ -1,0 +1,518 @@
+{
+  "site": {
+    "title": "Vai-AI-Space",
+    "description": "AI Consulting, Engineering and Cloud Architecture portfolio."
+  },
+  "header": {
+    "name": "VAISHNAVI R",
+    "homeHref": "#hero",
+    "homeAriaLabel": "Vaishnavi R home",
+    "menuAriaLabel": "Open menu"
+  },
+  
+  "hero": {
+    "headingLight": "Building AI Systems",
+    "headingBoldHtml": "That Create<br>Business Impact.",
+    "tagline": "WHERE STRATEGY MEETS ENGINEERING.",
+    "body1": "I help organizations identify high-value AI opportunities & bridge the gap between business goals & technical execution.",
+    "body": "With hands-on experience in Data Science & Applied AI, I design & deploy end-to-end AI solutions, collaborating closely with stakeholders and cross-functional teams to solve real-world problems.",
+    "marqueeAriaLabel": "Areas of expertise",
+    "marqueeItems": [
+      "AI CONSULTANT",
+      "AI ENGINEER",
+      "DATA SCIENTIST",
+      "CLOUD ARCHITECTURE",
+      "SYSTEM DESIGN",
+      "AI ADOPTION",
+      "AI PRODUCT ROADMAP"
+    ],
+    "videoSrc": "data/Video/bot.mp4",
+    "resumeHref": "data/VAISHNAVI_R_AI_SOLUTIONS_CONSULTANT.pdf",
+    "resumeLabel": "View Resume",
+    "connectHref": "#contact",
+    "connectLabel": "Let's Connect"
+  },
+  "mobileMenu": {
+    "home": "HOME",
+    "expertise": "AREAS OF EXPERTISE",
+    "cases": "CASE STUDIES",
+    "publications": "PUBLICATIONS",
+    "certifications": "CERTIFICATIONS",
+    "education": "EDUCATION",
+    "awards": "AWARDS & RECOGNITION",
+    "projects": "GITHUB PROJECTS",
+    "contact": "LET'S TALK"
+  },
+  "sidebar": {
+    "home": "Home",
+    "expertise": "Expertise",
+    "cases": "Case Studies",
+    "publications": "Publications",
+    "certifications": "Certifications",
+    "education": "Education",
+    "awards": "Awards",
+    "projects": "GitHub",
+    "contact": "Contact"
+  },
+  
+  "expertise": {
+    "eyebrow": "AREAS OF EXPERTISE",
+    "headingLight": "From strategy to", 
+    "headingBold": "From strategy to Production AI Systems",
+    "body2": "Contributed to <strong>25+ AI engagements</strong> for enterprise & public sector organizations across the <strong>UK, Ireland, Europe & internationally</strong>, including Dublin Airport Authority, JPMorgan, Red Bull & Dubai Aerospace Enterprise.",
+    
+    "cards": [
+      {
+        "number": "01",
+        "title": "AI Consulting",
+        "copy": "Help organizations identify where AI creates leverage and how to operationalize it responsibly.",
+        "bullets": [
+          "AI strategy & Readiness",
+          "Discovery Workshops", 
+          "Stakeholder Facilitation",
+          "Business Case Development",
+          "Responsible AI Governance",
+          "AI advisory",
+          "Adoption roadmaps",
+          "Executive briefings & presentations"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Solution Design & Development",
+        "copy": "Designed, developed, and demonstrated AI solutions tailored to client requirements as part of a multidisciplinary consulting team.",
+        "bullets": [
+          "Conversational AI",
+          "Generative AI",
+          "Agentic AI systems",
+          "Retrieval-Augmented Generation (RAG)",
+          "Graph RAG",
+          "Model Fine-tuning",
+          "AI Evaluation Frameworks", 
+          "Prompt Engineering Techniques"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Cloud & Tech Stack",
+        "copy": "Cloud delivery with strong focus on reliability, security, and velocity.",
+        "pills": [
+          "Azure",
+          "AWS",
+          "GCP",
+          "Microsoft AI Foundry",
+          "Microsoft CoPilot",
+          "ML Studio",
+          "AWS Bedrock",
+          "Google Gemini",
+          "OpenAI API",
+          "Claude Code",
+          "Anthropic API",
+          "Hugging Face Models",
+          "Computer Vision Models",
+          "LangChain",
+          "Databricks",
+          "Neo4j",
+          "Python",
+          "SQL",
+          "Git"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Technical Delivery",
+        "copy": "Translate strategy into delivery plans and measurable outcomes.",
+        "bullets": [
+          "Proof of Concepts (PoC) to Production",
+          "Enterprise integration",
+          "Performance & cost optimization",
+          "AI solution design",
+          "AI workflow Automation",
+          "Solution Architecture",
+          "System Design",
+          "Observability & Monitoring"
+        ]
+      }
+    ]
+  },
+
+
+
+  "about": {
+    "eyebrow": "EDUCATIONAL BACKGROUND",
+    "certificationsEyebrow": "CERTIFICATIONS",
+    "educationItems": [
+      {
+        "label": "Degree",
+        "title": "Master of Science",
+        "bullets": [
+          "MSc Computer Science",
+          "The National Degree College, Bangalore, India",
+          "December 2020 - October 2022",
+          "Courses: Data Science, Machine Learning, Big Data Analytics, Android, Cloud Architecture, etc.",
+          "Percentage: 98.25%.   CGPA: 10/10."
+        ],
+        "linkedinEmbed": "https://www.linkedin.com/embed/feed/update/urn:li:activity:7312493532408070144",
+        "linkedinPostUrl": "https://www.linkedin.com/posts/vaishnavi-r_goldmedal-proud-graduationday-activity-7312493532408070144-s47g?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "label": "Degree",
+        "title": "Bachelor of Science",
+        "bullets": [
+          "BSc Computer Science, Physics, Mathematics",
+          "Government First Grade College, Kuvempu University, India",
+          "July 2017 - September 2020",
+          "Java, DBMS, Software Engineering, Data Structure and Algorithms, Unix, C, C++, etc.",
+          "Percentage: 95%"
+        ],
+        "linkedinEmbed": "https://www.linkedin.com/embed/feed/update/urn:li:activity:6943541612878659584",
+        "linkedinPostUrl": "https://www.linkedin.com/posts/vaishnavi-r_universitylife-happiness-studentsuccess-activity-6943541612878659584-Ta7J?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Claude Certified Architect – Foundations",
+        "provider": "Anthropic",
+        "image": "data/certificates/CCA.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Microsoft Certified: Azure Data Scientist Associate",
+        "provider": "Microsoft",
+        "image": "data/certificates/data scientist.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Introduction to Agent Skills",
+        "provider": "Anthropic",
+        "image": "data/certificates/agent skills.jpg",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Introduction to Model Context Protocol",
+        "provider": "Anthropic",
+        "image": "data/certificates/mcp.jpg",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "AI for Product Management",
+        "provider": "Google : Mind The Product",
+        "image": "data/certificates/AI for Product Management.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Microsoft Certified: Azure AI Fundamentals",
+        "provider": "Microsoft",
+        "image": "data/certificates/azure ai fundamentals.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Google Data Analytics Specialization",
+        "provider": "Google",
+        "image": "data/certificates/goolge data analytics.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Claude Code in Action",
+        "provider": "Anthropic",
+        "image": "data/certificates/claude code in action.jpg",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Claude with the Anthropic API",
+        "provider": "Anthropic",
+        "image": "data/certificates/claude API.jpg",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "AWS Certified Cloud Practitioner",
+        "provider": "Amazon Web Services",
+        "image": "data/certificates/aws.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Microsoft Certified: Azure Fundamentals",
+        "provider": "Microsoft",
+        "image": "data/certificates/azure fund.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "AI For Everyone",
+        "provider": "Coursera",
+        "image": "data/certificates/ai.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Database Management Essentials",
+        "provider": "Coursera",
+        "image": "data/certificates/db.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "Python Programming",
+        "provider": "Coursera",
+        "image": "data/certificates/py.png",
+        "linkedinUrl": ""
+      },
+      {
+        "title": "The Unix Workbench",
+        "provider": "Coursera",
+        "image": "data/certificates/unix.png",
+        "linkedinUrl": ""
+      }
+    ]
+  },
+
+  "cases": {
+    "eyebrow": "CASE STUDIES",
+    "headingLight": "Selected work across AI,",
+    "headingBold": "Cloud & Automation.",
+    "tagline": "REAL PROBLEMS. REAL SYSTEMS. MEASURABLE IMPACT.",
+    "body": "Highlighting a few selected case studies from the many AI solutions I've designed and delivered across diverse industries and use cases.",
+    "cards": [
+      {
+        "tag": "AI Ticket Intelligence Platform",
+        "title": "Enterprise Managed Services",
+        "copy": "Reduced revenue leakage risk across managed services by delivering an AI-powered ticket classification solution, automating support ticket triage across 20+ client accounts, supporting a €2.33M revenue recovery opportunity.",
+        "stack": "Azure OpenAI · Prompt Engineering · Python",
+        "problem": "Enterprise support teams were manually reviewing thousands of support tickets to determine contractual scope. Inconsistent service catalogues and subjective decision-making resulted in significant revenue leakage, operational inefficiencies, and missed opportunities to convert Out-of-Scope work into chargeable change requests.",
+        "solution": "Facilitated discovery workshops, gathered business requirements, and translated operational challenges into an AI-powered ticket classification solution that automatically identified In-Scope and Out-of-Scope requests with explainable reasoning.",
+        "impactDetail": [
+            "Delivered a production-ready AI proof of concept within days, enabling rapid business validation before full engineering investment.",
+            "Automated support ticket triage across 20+ client accounts, supporting a €2.33M revenue recovery opportunity.",
+            "Reduced manual effort required for contractual ticket reviews and improved consistency across customer accounts."]
+      },
+      {
+        "tag": "AGENTIC IAC PLATFORM",
+        "title": "Multinational Corporation in Ireland",
+        "copy": "Architected & built an agentic AI platform for a £100K Client engagement, automating natural language-to-Terraform generation with policy-compliant infrastructure scaffolds, saving an estimated 40 engineering hours per sprint.",
+        "stack": "Agentic AI · Terraform · Python · Hub & Spoke Architecture",
+        "problem": "Infrastructure engineers spent significant time manually creating Terraform modules while ensuring compliance with internal governance, security policies, naming conventions, and architectural standards. The client wanted to accelerate Infrastructure as Code delivery and evaluate the potential of AI-assisted infrastructure automation.",
+        "solution": "Designed and delivered an agentic AI platform that converts natural language requirements into production-ready Terraform modules. The solution orchestrates multiple AI agents to generate infrastructure code, perform automated governance and quality reviews, evaluate model performance, and surface engineering and leadership metrics through an observability dashboard.",
+        "impactDetail": [
+            "Delivered a production-quality proof of concept, demonstrating AI-assisted Terraform generation with automated governance validation.",
+            "Designed a multi-agent architecture covering code generation, quality assurance, governance validation, and observability workflows.",
+            "Reduced manual infrastructure engineering effort while improving consistency, governance, and developer productivity.",
+            "Created technical architecture, user journeys, and solution documentation that accelerated stakeholder alignment and project approval."
+        ]
+      },
+      {
+        "tag": "RAIA: Responsible AI Advisor",
+        "title": "Global AI Governance Initiative",
+        "copy": "Reduced compliance review time from 2-3 days of manually analysing 500+ pages of regulatory guidance to under 5 minutes by architecting an Agentic RAG assistant that applies region-specific Responsible AI frameworks to provide evidence-backed compliance gap analyses & recommendations.",
+        "stack": "LangChain · Azure AI Search · Responsible AI · RAG",
+        "problem": "Organizations adopting AI face an increasingly complex regulatory landscape. Understanding which AI regulations apply, assessing compliance, and implementing governance controls is time-consuming, requires specialist expertise, and often delays AI adoption while increasing legal and reputational risk.",
+        "solution": "Designed and developed an Agentic RAG assistant that retrieves and interprets AI regulations, evaluates AI use cases against governance frameworks, identifies compliance gaps, and provides explainable recommendations to support responsible AI adoption across industries.",
+        "impactDetail": [
+            "Architected and built the end-to-end Agentic RAG solution, including document ingestion, embedding pipelines, retrieval workflows, and AI orchestration.",
+            "⭐ Recognized as an Ireland AI Awards finalist for innovation in Responsible AI governance.",
+            "Enabled governance board members to interpret complex AI regulations in minutes instead of manually reviewing lengthy policy documents."
+        ]
+      },
+      {
+        "tag": "Neuro-Symbolic AI - KBQA system",
+        "title": "Enterprise Knowledge Management",
+        "copy": "Achieved 96% accuracy across 1000+ multi-hop evaluation queries, outperforming traditional RAG approaches, by architecting a reusable Neuro-symbolic AI pipeline that enabled enterprise knowledge retrieval over complex document collections.",
+        "stack": "Knowledge Graphs · GraphRAG · Neo4j · Model Fine-tuning",
+        "problem": "Traditional search and standard RAG systems struggle with complex, multi-hop reasoning across enterprise knowledge bases. This often leads to incomplete answers, hallucinations, and limited explainability, making them unsuitable for knowledge-intensive enterprise applications.",
+        "solution": "Built an end-to-end scalable & reusable pipeline by implementing document preprocessing, entity-relation extraction, model fine-tuning on 1M+ text records, knowledge graph construction, Graph RAG retrieval & evaluation, enabling adaptation across diverse enterprise domains / use cases.",
+        "impactDetail": [
+            "Improved answer accuracy and explainability while reducing hallucinations compared to traditional RAG approaches.",
+            "Designed reusable & scalable preprocessing, retrieval, and evaluation pipelines which are easily adaptable as a foundation for enterprise knowledge management."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "GITHUB PROJECTS",
+    "headingLight": "",
+    "headingBold": "Technical experiments.",
+    "tagline": "",
+    "cards": [
+      {
+        "href": "https://github.com/RVaishnavi-999/The-Sparks-Foundation-Tasks",
+        "linkLabel": "GitHub ›",
+        "title": "Data Science and Business Analytics Internship",
+        "copy": "Applied supervised learning, unsupervised learning, and exploratory data analysis to build predictive models, uncover patterns, and generate actionable business insights."
+      },
+      {
+        "href": "https://github.com/RVaishnavi-999/Data-analyst-Portfolio-Project",
+        "linkLabel": "GitHub ›",
+        "title": "Data Analyst Portfolio Project",
+        "copy": "Explored and analyzed COVID-19 data using SQL, leveraging joins, CTEs, window functions, and aggregate queries to uncover trends and generate actionable insights."
+      },
+      {
+        "href": "https://github.com/RVaishnavi-999/We-Care-Android-Application-with-IoT",
+        "linkLabel": "GitHub ›",
+        "title": "We Care (Smart Patient Monitoring and Smart Hospital Management System)",
+        "copy": "Developed an Android application integrated with IoT devices for smart patient monitoring and hospital management."
+      }
+    ]
+  },
+  
+  "publications": {
+    "eyebrow": "PUBLICATIONS",
+    "headingLight": "",
+    "headingBoldHtml": "Ideas, frameworks and Lessons from real delivery.",
+    "tagline": "WRITING THAT SHAPES HOW TEAMS THINK ABOUT AI.",
+    "body": "I share insights from real delivery: strategy, architecture patterns, and lessons from enterprise AI adoption. These pieces are designed to help practitioners move faster and more clearly.",
+    "items": [
+      {
+        "tag": "Post",
+        "title": "LLM-as-Judge Framework for AI Evaluation",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_aiengineering-systemdesign-agenticai-activity-7466132247423655938-61i0?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "LinkedIn Article",
+        "title": "AI Breakthrough: Turning Complexity into Clarity with Neurosymbolic AI",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_ai-technology-futuretech-activity-7361001093931130880-FPoz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "LinkedIn Article",
+        "title": "Beyond the Buzz: From Neuro-Symbolic to Neuro-Conceptual AI - What you need to know",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_ai-innovation-technology-activity-7353404410590343168-_ENu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "Medium Article",
+        "title": "LiteLLM: A Comprehensive Analysis",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_litellm-a-comprehensive-analysis-activity-7196911127300087808-krl4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "Medium Article",
+        "title": "Analysis of Anthropic’s Claude 3 Sonnet on Amazon Bedrock",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_analysis-of-anthropics-claude-3-sonnet-on-activity-7173568195784638465-0Vqp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "Medium Article",
+        "title": "Gemini Ultra 1.0: Testing Google’s Most Powerful AI Performance",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_gemini-ultra-10-testing-googles-most-powerful-activity-7165369498009620481-BUF8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "Medium Article",
+        "title": "Analysis of Gemini-Pro: Google’s largest and most capable AI model.",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_analysis-of-gemini-pro-googles-largest-activity-7142739566913921024-gF1j?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+    },
+      {
+        "tag": "Medium Article",
+        "title": "Popular Text-to-Image Generation AI Tools: A Comparative Analysis",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_popular-text-to-image-generation-ai-tools-activity-7117554206927982592-5FYQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "Medium Article",
+        "title": "Comprehensive Analysis of LIMA: Less is More in AI Model Efficiency",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_comprehensive-analysis-of-lima-less-is-activity-7071934864664506370-3_bc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "Medium Article",
+        "title": "Analysis of Upgraded Claude AI Assistant: 9k to 100k Tokens!",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_analysis-of-upgraded-claude-ai-assistant-activity-7069012815746924544-r9Km?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "Medium Article",
+        "title": "Microsoft Security Copilot: Maximize Your Cloud Security Using GPT",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_microsoft-security-copilot-maximize-your-activity-7061750696596959232-9zFu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      },
+      {
+        "tag": "Medium Article",
+        "title": "",
+        "href": "https://www.linkedin.com/posts/vaishnavi-r_analysis-of-claude-an-ai-assistant-by-anthropic-activity-7056679020159004673-z_MT?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+      }
+    ]
+  },
+
+  "awards": {
+    "eyebrow": "AWARDS & RECOGNITION",
+    "headingBold": "Recognised for excellence.",
+    "items": [
+        {
+            "html": "<strong>Leadership & Strategic Contributions</strong>: Appointed to Version 1's  <strong>Shadow Board</strong> - a select cohort of emerging leaders, sponsored by the People Director & CTO. Contributed to <strong>8 strategic initiatives over 12 months</strong>: workforce strategy, employee experience, inclusion, market expansion, & customer success - representing the next generation's perspective in organisation-wide decisions.",
+            "linkText": "",
+            "linkUrl": "https://www.linkedin.com/posts/vaishnavi-r_version1-newbeginnings-shadowboard-activity-7159812767812640769-AF18?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+        },
+        {
+            "html": "<strong>Global Sustainability Awards 2025 – Social Impact (Shortlisted)</strong>: Contributed to the AI Inclusive Suite delivering AI-powered accessibility solutions that promote inclusion across education, workplaces, museums, and public services.",
+            "linkText": "",
+            "linkUrl": "https://www.linkedin.com/posts/rosemaryjthomas_delighted-to-share-that-version-1-has-been-activity-7341811591534768129-4bS4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+        },
+        {
+            "html": "<strong>AI Awards Ireland 2025 Finalist</strong>: Contributed to the development of Responsible AI Advisor (RAIA), shortlisted as a finalist for Best Use of Responsible AI & Ethics at the 2025 AI Awards.",
+            "linkText": "",
+            "linkUrl": "https://www.linkedin.com/posts/vaishnavi-r_responsibleai-ethicalai-aiawardsirl-activity-7383723321428856833-TLyG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+        },
+        {
+            "html": "<strong>Excellence in Operations – Version 1 Excellence Awards 2024</strong>: Recognized as part of the Delphi project team, which received the Excellence in Operations Award for outstanding teamwork and delivery excellence.",
+            "linkText": "",
+            "linkUrl": "https://www.linkedin.com/posts/vaishnavi-r_delphi-excellenceawards2024-insideversion1-activity-7253075678927937536--CHC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+        },
+        {
+            "html": "<strong>Excellence Awards 2024 – Judging Panel</strong>: Selected as a judge for the Version 1 Excellence Awards 2024, evaluating nominations in the Excellence in Collaboration category and recognizing outstanding teamwork and organizational impact.",
+            "linkText": "",
+            "linkUrl": "https://www.linkedin.com/posts/vaishnavi-r_excellenceawards2024-insideversion1-activity-7247586340358258689-BQ3i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+        },
+        {
+            "html": "<strong>Newcomer of the year – Version 1 Excellence Awards 2024</strong>: Shortlisted as a finalist for the Newcomer of the Year award, recognizing exceptional contributions and impact within the first year of joining Version 1.",
+            "linkText": "",
+            "linkUrl": "https://www.linkedin.com/posts/vaishnavi-r_version1excellenceawards2023-insideversion1-activity-7130612471148527616-_Yhy?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+        },
+        {
+            "html": "Awarded the <strong>Gold Medal</strong> for graduating at the top of my Master's program in CS, recognizing outstanding academic excellence and consistent performance.",
+            "linkText": "",
+            "linkUrl": "https://www.linkedin.com/posts/vaishnavi-r_goldmedal-proud-graduationday-activity-7312493532408070144-s47g?utm_source=share&utm_medium=member_desktop&rcm=ACoAADGKuzgBhu50efV0RsN0kt0w0-A4v5nYjW4"
+        },
+        {
+            "html": "Awarded a merit scholarship for <strong>Excellent Academic Performance</strong> in the MSc-Computer Science by National Degree College (July 2022)",
+            "linkText": "",
+            "linkUrl": ""
+        },
+        {
+            "html": "Honoured by the Kuvempu University, for getting the highest score in Physics subject in BSc PMCs — June 2022",
+            "linkText": "",
+            "linkUrl": ""
+        },
+        {
+            "html": "Awarded as <strong>Eccentric Talent</strong> by <strong>The Women and Child Welfare Department</strong> of Karnataka State, India, for achieving greatness in academic success as well as success in extracurricular activities such as singing, dancing, and painting.",
+            "linkText": null,
+            "linkUrl": null
+        }
+    ]
+  },
+
+  "interests": {
+    "eyebrow": "INTERESTS & VOLUNTEER WORK",
+    "headingBold": "Beyond the code.",
+    "items": [
+      {
+        "category": "Interests & Hobbies",
+        "points": [
+          "Presented <strong>AI Building Blocks: Adding Intelligence to Your Apps</strong> at Version 1's AI Month to tech leaders, architects, engineers & executives across the organisation.",
+          "Covered 4 key AI problem patterns & solutions: Inclusive AI Suite, Vision Intelligence, AI for Compliance, and more — with focus on when to use what across LLMs, SLMs, GenAI & computer vision.",
+          "Mentoring people on Processes, AI Technical Aspects, Client Interactions & Demo preparations",
+          "Learning new & upcoming technologies, reading AI & ML papers, and exploring AI research trends.",
+          "Writing blogs about my learnings and sharing them on LinkedIn to help others in the AI community."
+
+        ],
+        "linkUrl": ""
+      },
+      {
+        "category": "CSR & ESG Volunteering",
+        "points": [
+          "Volunteered in an <strong>Environmental Sustainability (ESG)</strong> initiative, participating in a community lake cleanup drive to support local conservation efforts.",
+          "Volunteered for a <strong>Corporate social responsibility (CSR) </strong> efforts by providing educational essentials to orphaned children, helping promote access to learning."
+        ],
+        "linkUrl": ""
+      }
+    ]
+  },
+
+  "contact": {
+    "eyebrow": "LET'S TALK",
+    "headingLight": "Planning an AI product,",
+    "headingBoldHtml": "Platform or<br>Transformation?",
+    "tagline": "",
+    "body": "Interested in building impactful AI solutions? I'd love to connect and explore how we can work together.",
+    "emailHref": "mailto:vaishnavi_ramesh@outlook.com",
+    "emailLabel": "Send an Email",
+    "linkedinHref": "https://www.linkedin.com/in/vaishnavi-r",
+    "linkedinLabel": "LinkedIn"
+  }
+}
